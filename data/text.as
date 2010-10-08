@@ -27,16 +27,16 @@ package data {
 		if (type == "1") {
 			formatter.color = 0x0389af;
 			formatter.size = 13;
-			formatter.italic = true;
+			//formatter.italic = true;
 			top.selectable = false;
 			top.autoSize = TextFieldAutoSize.CENTER;
 		}
 		// душный
 		if (type == "2") {
 			formatter.color = 0x666666;
-			formatter.size = 11;
+			formatter.size = 17;
 			top.selectable = false;
-			top.autoSize = TextFieldAutoSize.LEFT;
+			top.autoSize = TextFieldAutoSize.CENTER;
 		}
 		// душный побольше
 		if (type == "3") {
